@@ -1,0 +1,28 @@
+#
+# Custom configurations
+# Removed unnecessary stuff,
+# added some stuff for debugging
+# and testing.
+#
+# NOTE! Necessary stuff which are
+# enabled by default are not re-enabled
+# here (e.g CONFIG_CMD_EDITENV which
+# defaults to y).
+#
+
+#
+# Environment commands
+#
+CONFIG_CMD_ASKENV=y
+CONFIG_CMD_GREPENV=y
+CONFIG_CMD_ERASEENV=y
+
+#
+# Memory commands
+#
+CONFIG_CRC32_VERIFY=y
+CONFIG_CMD_MD5SUM=y
+CONFIG_MD5SUM_VERIFY=y
+CONFIG_CMD_MEMINFO=y
+CONFIG_CMD_SHA1SUM=y
+CONFIG_SHA1SUM_VERIFY=y
